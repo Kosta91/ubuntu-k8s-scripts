@@ -2,7 +2,7 @@
 
 *run-postinstall.sh*
 
-One-click sets up all necessary software and adds some useful aliases to ~/.bashrc file
+One-click setup all necessary software and adds some useful aliases to ~/.bashrc file
 Applies one optional NEED_VM argument if virtual machine (kvm) installation is also required.
 The next software will be installed at this step:
 
