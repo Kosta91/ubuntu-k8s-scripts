@@ -1,6 +1,6 @@
 #!/bin/bash
 
-POSTINSTALL_DIR=${HOME}/scripts/postinstall
+POSTINSTALL_DIR=scripts/postinstall
 NEED_VM=${1}
 
 sudo apt update

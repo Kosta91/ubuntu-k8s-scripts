@@ -5,6 +5,11 @@ VM_IMAGE=ubuntu-20.04.3-desktop-amd64.iso
 
 if [ -z ${NAME} ]
 then
+    NAME=${1}
+fi
+
+if [ -z ${NAME} ]
+then
     echo "Set VM name"
     exit 1
 fi
